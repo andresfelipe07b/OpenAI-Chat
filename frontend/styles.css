@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background: #212121;
+    padding: 0 20%;
+}
+h1 {
+color:#fff;
+    width:100%;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #404040;
+}
+#chat {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background: #212121;
+    color:#ffff;
+    font-size: 20px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#chat p {
+    width: fit-content;
+    margin: 20px 0 ;
+    padding: 10px 20px;
+
+
+}
+p.me{
+    border-radius: 10px;
+    background: #404040;
+    align-self: flex-end;
+    margin-right: 20px;
+}
+div.ai{
+
+    align-self: flex-start;
+    margin-left: 20px;
+    background: #171717;
+    border-radius: 10px;
+}
+
+
+input{
+    width: 90%;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color:#fff;
+    background: #303030FF;
+    outline: none;
+}
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+
+}
+pre{
+    padding: 20px;
+}
+pre code {
+    background: #282c34;
+    display: block;
+    border-radius: 5px;
+    font-family: monospace;
+    overflow-x: auto;
+    padding: 10px 20px;
+}

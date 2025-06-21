@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat with OpenAI</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <h1>Chat with OpenAI</h1>
+  <div id="chat"></div>
+  <input id="userInput" onkeydown="pressEnter(event)" placeholder="Escribe tu mensaje"/>
+  <button onclick="sendMessage(this)"><i class="fa-solid fa-paper-plane"></i></button>
+  <script src="./main.js"></script>
+</body>
+</html>
