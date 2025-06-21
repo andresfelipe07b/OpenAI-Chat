@@ -12,7 +12,7 @@ This project is a basic simulation of a chat with artificial intelligence using 
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/openai-chat.git
+git clone https://github.com/andresfelipe07b/OpenAI-Chat.git
 ```
 
 2. Create a `.env` file inside the `backend` folder with your OpenAI secret key:

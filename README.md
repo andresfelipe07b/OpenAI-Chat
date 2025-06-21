@@ -15,7 +15,7 @@ Este proyecto es una simulación básica de un chat con inteligencia artificial 
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/openai-chat.git
+git clone https://github.com/andresfelipe07b/OpenAI-Chat.git
 ```
 
 2. Crea un archivo `.env` dentro de la carpeta `backend` con tu clave secreta de OpenAI:
